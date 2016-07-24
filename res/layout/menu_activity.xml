@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:weightSum="100"
+    android:orientation="vertical" >
+
+    <TextView
+        
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Tic Tac Toe"
+        android:textColor="#ffff00"
+        android:textSize="60sp"
+        android:layout_weight="25"/>
+         
+
+    <Button
+        android:id="@+id/LB"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+         android:textSize="30sp"
+        android:text="Play on this device" />
+
+    <Button
+        android:id="@+id/BB"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20" 
+         android:textSize="30sp"
+        android:text="Play over bluetooth"/>
+
+    <Button
+        android:id="@+id/EB"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+         android:textSize="30sp"
+        android:text="Exit game" />
+
+    <TextView
+        android:id="@+id/TVB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="By Manas Kale" />
+
+</LinearLayout>

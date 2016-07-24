@@ -1,0 +1,119 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Debug text, please ignore"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/R0C0"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:textColor="#ff0000"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/R0C1"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:textColor="#ff0000"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/R0C2"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:textColor="#ff0000"
+            android:textSize="40sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/R1C0"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:textColor="#ff0000"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/R1C1"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:textColor="#ff0000"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/R1C2"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:textColor="#ff0000"
+            android:textSize="40sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/R2C0"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:textColor="#ff0000"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/R2C1"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:textColor="#ff0000"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/R2C2"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:textColor="#ff0000"
+            android:textSize="40sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/TVB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="X player&apos;s turn"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/RB"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:text="Reset game"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</LinearLayout>
